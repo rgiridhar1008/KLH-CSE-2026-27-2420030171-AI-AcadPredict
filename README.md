@@ -1,4 +1,4 @@
-# AcadPredict
+# AI-AcadPredict
 
 ## AI-Integrated Adaptive Academic Project Collaboration and Risk Prediction Platform
 
