@@ -118,7 +118,6 @@ Predict project delay risk and enable early intervention.
 | Repository | GitHub |
 | CI/CD | GitHub Actions |
 | Containerization | Docker |
-| Security Testing | OWASP ZAP |
 | Agile Tool | Jira |
 | Build Tool | Maven |
 
