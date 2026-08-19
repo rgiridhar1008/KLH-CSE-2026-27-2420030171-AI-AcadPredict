@@ -135,55 +135,6 @@ The project will use publicly available educational datasets for machine learnin
 
 ---
 
-## Setup Instructions
-
-### Prerequisites
-
-- Java JDK 17+
-- Node.js
-- MySQL Server
-- Python 3.x
-- Git
-- Docker (Optional)
-
-### Setup Steps
-
-1. Clone the repository.
-2. Configure the MySQL database.
-3. Configure the Spring Boot backend.
-4. Install frontend dependencies.
-5. Configure the AI service.
-6. Start backend, frontend, and AI services.
-
----
-
-## Execution Instructions
-
-### Backend
-
-```bash
-cd backend
-mvn spring-boot:run
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-### AI Service
-
-```bash
-cd ai-service
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
----
-
 ## Current Phase Status
 
 ### Current Phase
