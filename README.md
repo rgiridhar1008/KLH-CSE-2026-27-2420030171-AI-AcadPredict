@@ -29,7 +29,7 @@
 | **V. Mani MahaLakshmi** | `2420030773` | Machine Learning Microservice, Random Forest Modeling & Dataset Pipeline |
 
 ### Project Supervisor
-**Dr. G. Lavanya** — Associate Professor, Department of Computer Science and Engineering
+**Dr. Lavanya Gottumukkala** — Assistant Professor , Department of Computer Science and Engineering
 
 ---
 
