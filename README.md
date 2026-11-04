@@ -20,7 +20,7 @@
 
 - **Institution:** KL University (KLH)
 - **Department:** Computer Science & Engineering (CSE)
-- **Course:** Advanced Software Engineering (ASE Project)
+- **Course:** Adaptive Software Engineering (ASE Project)
 - **Academic Year:** 2026–2027
 
 ### Project Team Members
@@ -394,7 +394,7 @@ Explore the dedicated documentation files for in-depth technical details:
 
 ## ⚖️ License & Academic Compliance
 
-- **Platform:** AI-AcadPredict (Advanced Software Engineering Project)
+- **Platform:** AI-AcadPredict (Adaptive Software Engineering Project)
 - **Institution:** KL University (KLH)
 - **Academic Year:** 2026–2027
 - **License:** For Academic Project Evaluation and Educational Use Only
