@@ -384,11 +384,8 @@ AI-AcadPredict has been thoroughly verified through automated tests across all t
 
 Explore the dedicated documentation files for in-depth technical details:
 
-1. 📖 **[ACADPREDICT_USER_GUIDE.md](ACADPREDICT_USER_GUIDE.md)**: Complete operational manual for students, supervisors, coordinators, and examiners.
-2. 🛡️ **[ACADPREDICT_ROLE_ACCESS_MATRIX.md](ACADPREDICT_ROLE_ACCESS_MATRIX.md)**: Exhaustive security matrix, route authorization, and privilege boundaries.
-3. 📑 **[ACADPREDICT_API_REFERENCE.md](ACADPREDICT_API_REFERENCE.md)**: Full REST API specification with example payloads and status codes.
-4. 📋 **[ACADPREDICT_DEMO_CHECKLIST.md](ACADPREDICT_DEMO_CHECKLIST.md)**: Step-by-step presentation script, examiner demonstration sequence, and SQL proof queries.
-5. 📊 **[MEMBER4_AUDIT_REPORT.md](MEMBER4_AUDIT_REPORT.md)**: Member 4 comprehensive audit report detailing all implementation phases, architecture decisions, and test outcomes.
+📖 **[ACADPREDICT_USER_GUIDE.md](ACADPREDICT_USER_GUIDE.md)**: Complete operational manual for students, supervisors, coordinators, and examiners.
+
 
 ---
 
