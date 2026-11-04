@@ -39,10 +39,24 @@
 }
 
 .register-logo-wrap {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  width: 100%;
   margin-bottom: 12px;
+}
+
+.register-brand-logo {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.register-brand-logo:hover {
+  transform: scale(1.02);
 }
 
 .register-brand-icon {

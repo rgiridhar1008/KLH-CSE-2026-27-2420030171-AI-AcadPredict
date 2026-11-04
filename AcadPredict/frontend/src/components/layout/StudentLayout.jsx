@@ -161,38 +161,14 @@ const savedUser = (() => {
       <aside className={`layout-sidebar ${mobileMenuOpen ? 'sidebar-mobile-open' : ''}`}>
         {/* Brand Logo & Name */}
         <div className="layout-brand" onClick={() => handleNavigate('/student/dashboard')} role="button" tabIndex={0}>
-          <svg
+          <img
+            src="/logo-icon.png"
+            alt="AI-AcadPredict Logo"
             className="layout-brand-icon"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <rect width="32" height="32" rx="8" fill="#1E40AF" />
-            <path
-              d="M16 7L6 12L16 17L26 12L16 7Z"
-              fill="#93C5FD"
-              stroke="#DBEAFE"
-              strokeWidth="1.5"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M10 14.5V20C10 22.5 12.5 24.5 16 24.5C19.5 24.5 22 22.5 22 20V14.5"
-              stroke="#FFFFFF"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M26 13V19"
-              stroke="#FCD34D"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-            />
-          </svg>
+          />
           <div className="layout-brand-text">
-            <span className="layout-brand-title">AcadPredict</span>
-            <span className="layout-brand-badge">Student Portal</span>
+            <span className="layout-brand-title">AI-AcadPredict</span>
+            <span className="layout-brand-badge">{userRole} Portal</span>
           </div>
         </div>
 
@@ -273,7 +249,10 @@ const savedUser = (() => {
                 <line x1="3" y1="18" x2="21" y2="18" />
               </svg>
             </button>
-            <div className="layout-brand-mobile">AcadPredict</div>
+            <div className="layout-brand-mobile" onClick={() => handleNavigate('/student/dashboard')} role="button" tabIndex={0}>
+              <img src="/logo-icon.png" alt="AI-AcadPredict" className="layout-brand-mobile-icon" />
+              <span>AI-AcadPredict</span>
+            </div>
             <div className="layout-breadcrumbs">
               <span className="breadcrumb-root" onClick={() => handleNavigate('/student/dashboard')}>Portal</span>
               <span className="breadcrumb-slash">/</span>

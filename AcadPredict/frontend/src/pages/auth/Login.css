@@ -56,10 +56,24 @@
 }
 
 .brand-logo-wrap {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.login-brand-logo {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.login-brand-logo:hover {
+  transform: scale(1.02);
 }
 
 .brand-icon {

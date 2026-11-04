@@ -132,47 +132,19 @@ function Login() {
       <div className="login-card-container">
         <div className="login-header">
           <div className="brand-logo-wrap">
-            <svg
-              className="brand-icon"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <rect width="32" height="32" rx="8" fill="#1E40AF" />
-              <path
-                d="M16 7L6 12L16 17L26 12L16 7Z"
-                fill="#93C5FD"
-                stroke="#DBEAFE"
-                strokeWidth="1.5"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M10 14.5V20C10 22.5 12.5 24.5 16 24.5C19.5 24.5 22 22.5 22 20V14.5"
-                stroke="#FFFFFF"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M26 13V19"
-                stroke="#FCD34D"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
-
-            <span className="brand-name">
-              Acad<span className="brand-name-highlight">Predict</span>
-            </span>
+            <img
+              src="/logo.png"
+              alt="AI-AcadPredict"
+              className="login-brand-logo"
+            />
           </div>
 
-          <div className="portal-badge">Academic Portal</div>
+          <div className="portal-badge">Academic Management Portal</div>
 
-          <h1 className="login-title">Welcome to AcadPredict</h1>
+          <h1 className="login-title">Welcome to AI-AcadPredict</h1>
 
           <p className="login-subtitle">
-            Academic Project Collaboration &amp; Risk Prediction Platform
+            Academic Project Collaboration &amp; Delay Risk Prediction Platform
           </p>
 
           <div className="role-tags">

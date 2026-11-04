@@ -41,9 +41,15 @@
 }
 
 .layout-brand-icon {
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
   flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.layout-brand:hover .layout-brand-icon {
+  transform: scale(1.06);
 }
 
 .layout-brand-text {
@@ -232,9 +238,19 @@
 
 .layout-brand-mobile {
   display: none;
+  align-items: center;
+  gap: 8px;
   font-weight: 700;
   font-size: 16px;
   color: #1e40af;
+  cursor: pointer;
+}
+
+.layout-brand-mobile-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .layout-breadcrumbs {
@@ -489,7 +505,7 @@
   }
 
   .layout-brand-mobile {
-    display: block;
+    display: flex;
   }
 
   .layout-breadcrumbs {

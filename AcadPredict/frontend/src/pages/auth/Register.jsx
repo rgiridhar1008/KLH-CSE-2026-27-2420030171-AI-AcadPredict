@@ -88,9 +88,11 @@ function Register() {
       <div className="register-card">
         <div className="register-header">
           <div className="register-logo-wrap">
-            <span className="register-brand-name">
-              Acad<span className="register-brand-highlight">Predict</span>
-            </span>
+            <img
+              src="/logo.png"
+              alt="AI-AcadPredict"
+              className="register-brand-logo"
+            />
           </div>
 
           <div className="register-badge">Create Account</div>

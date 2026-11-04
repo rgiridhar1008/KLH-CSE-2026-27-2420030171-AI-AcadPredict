@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="AI-AcadPredict Logo" width="460" />
+</p>
+
 # AI-AcadPredict 🎓🤖
 ### AI-Integrated Academic Project Management & Delay Risk Prediction Platform
 
